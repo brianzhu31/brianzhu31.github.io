@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  </head>
+  <body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#intro">Welcome</a></li>
+            <li><a href="#one">About me</a></li>
+            <li><a href="#two">Projects</a></li>
+            <li><a href="#three">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+          <h1>Brian Zhu</h1>
+          <p>
+            First year Computer Science Student at the University of Waterloo
+          </p>
+          <ul class="actions">
+            <li><a href="#one" class="button scrolly">Learn more</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- One -->
+      <section id="one" class="wrapper style3 fade-up">
+        <div class="inner">
+          <h2>About me</h2>
+          <div id="about-content">
+            <img id="main-img" src="images/code-editor.png">
+            <div id="about-text-container">
+              <p>
+                Hi! I'm Brian, an undergrad student currently studying computer science at the University of Waterloo.
+                I am interested in many different fields in computer science and software engineering such as full stack development,
+                data science, and machine learning.
+              </p>
+              
+              <a href="Brian Zhu Resume.pdf" target=”_blank” class="button">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Two -->
+      <section id="two" class="wrapper style2 spotlights">
+        <div class="inner" id="projects-header-container">
+          <h2>Projects</h2>
+        </div>
+        <section class="image-section">
+          <a href="https://nasunshine.com/" target=”_blank” class="image">
+            <img src="images/nasunshine.png" id="nas1" alt="" data-position="center center"/>
+          </a>
+          <div class="content">
+            <div class="inner">
+              <h2>N American Sunshine</h2>
+              <p>
+                E-commerce website for a trading company.
+                Built with Next.js, CSS, and various styled component libraries.
+                Integrated payment processing and cart management using Snipcart API and Stripe API.
+                Utilized Sanity.io as a backend content management system to store, manage, and retrieve products.
+                (Unable to upload source code due to confidentiality agreements)
+              </p>
+              <ul class="actions">
+                <li><a href="https://nasunshine.com/" target=”_blank”  class="button">View Demo</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="image-section">
+          <a href="https://chromewebstore.google.com/detail/nba-clutch-time-notifier/kenhbmdplilkiabfkjknnfliacbionof" class="image"
+            ><img src="images/nba.png" target=”_blank”  alt="" data-position="top center"
+          /></a>
+          <div class="content">
+            <div class="inner">
+              <h2>NBA Clutch Time Notifier</h2>
+              <p>
+                Google chrome extension that notifies users whenever the score becomes close during live NBA games.
+                Users have the option to follow specific teams and select parameters that control their notifications.
+                Built with HTML, CSS, and JavaScript
+                and utilizes ESPN API to gather live game data and Chrome Storage API to store user input values.
+              </p>
+              <ul class="actions">
+                <li><a href="https://chromewebstore.google.com/detail/nba-clutch-time-notifier/kenhbmdplilkiabfkjknnfliacbionof" target=”_blank” class="button">View Demo</a></li>
+                <li><a href="https://github.com/brianzhu31/nba-clutch-time-notifier" target=”_blank”  class="button">View Source Code</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="image-section">
+          <a href="https://navy-blog-template.netlify.app/" class="image"
+            ><img src="images/blog.png" target=”_blank”  alt="" data-position="top center"
+          /></a>
+          <div class="content">
+            <div class="inner">
+              <h2>Blog Template</h2>
+              <p>
+                Blog template with a minimalistic dark-theme design built with React, CSS, and various styled component libraries.
+                Built with the intention to practice front-end development.
+
+              </p>
+              <ul class="actions">
+                <li><a href="https://navy-blog-template.netlify.app/" target=”_blank” class="button">View Demo</a></li>
+                <li><a href="https://github.com/brianzhu31/blog-template" target=”_blank”  class="button">View Source Code</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Three -->
+      <section id="three" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h2>Contact</h2>
+          <div class="split style1">
+            <section>
+              <form method="post" action="#">
+                <div class="fields">
+                  <div class="field half">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="field half">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li><a href="" class="button submit">Send Message</a></li>
+                </ul>
+              </form>
+            </section>
+            <section>
+              <ul class="contact">
+                <li>
+                  <h3>Email</h3>
+                  <spean>b26zhu@uwaterloo.ca</soan>
+                </li>
+                <li>
+                  <h3>Phone</h3>
+                  <span>(647) 212 - 6338</span>
+                </li>
+                <li>
+                  <h3>Socials</h3>
+                  <ul class="icons">
+                    <li>
+                      <a href="https://github.com/brianzhu31" class="icon brands fa-github"
+                        ><span class="label">GitHub</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/brian-zhu-419092251/" class="icon brands fa-linkedin-in"
+                        ><span class="label">LinkedIn</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
