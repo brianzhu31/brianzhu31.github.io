@@ -2448,7 +2448,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: white;
 			content: '\f00c';
 		}
 
@@ -3866,7 +3866,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: white;
 						}
 
 		}
@@ -3920,19 +3920,19 @@ input, select, textarea {
 #about-content {
 	display: flex;
 	flex-direction: row;
-	gap: 5%;
-	height: 75vh;
 	justify-content: center;
 	align-items: center;
-	transform: translateY(-40px);
+	padding-bottom: 100px;
 	
 }
 
+
 #main-img {
-	max-width: 500px;
-	max-height: 500px;
+	aspect-ratio: 1;
+	max-width: 440px;
 	width: 100%;
-	object-fit: contain;
+	object-fit: cover;
+	padding-bottom: 40px;
 }
 
 #about-text-container {
@@ -3940,21 +3940,14 @@ input, select, textarea {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 0px 30px;
 }
 
 @media screen and (max-width: 980px) {
 
 	#about-content {
 		flex-direction: column;
-		height: 85vh;
-	}
-
-}
-
-@media screen and (max-height: 700px) {
-	#about-content {
-		height: 100vh;
-	}
+	}	
 
 }
 
